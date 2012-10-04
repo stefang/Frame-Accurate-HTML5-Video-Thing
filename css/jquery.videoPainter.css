@@ -1,0 +1,107 @@
+#studio {
+  clear: both;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background-color: #fff
+}
+#painting, #painting_surface {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+#painting {
+  z-index: 20
+}
+#painting_surface {
+  cursor: crosshair;
+  background-color: transparent;
+  z-index: 40
+}
+
+#sketchpad_controls {
+  padding: 9px;
+  background-color: #ccc;
+  overflow: auto;
+}
+
+#sketchpad_controls a {
+  text-decoration: none;
+  color: #444;
+}
+
+#sketchpad_controls ul {
+  float: left;
+  margin: 0 6px 0 0;
+  padding: 6px;
+  list-style: none;
+  background: #eee;
+}
+
+#sketchpad_controls ul.utils {
+  float: right;
+}
+
+#sketchpad_controls ul li {
+  float: left;
+}
+
+#sketchpad_controls ul {
+  background-color: #eee;
+}
+
+.colours a, .sizes a {
+  display: block;
+  text-indent: -999em;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+.colours a:link, .colours a:visited {
+  border: 4px solid #eee
+}
+.colours a:hover, .colours a.active:link, .colours a.active:visited, .colours a.active:active, .colours a.active:hover, .colours a.active:focus {
+  border-color: transparent
+}
+.colours .to-blue{background-color:blue}
+.colours .to-X6CF{background-color:#6CF}
+.colours .to-red{background-color:red}
+.colours .to-white{background-color:white}
+.colours .to-grey{background-color:grey}
+.colours .to-pink{background-color:pink}
+.colours .to-purple{background-color:purple}
+.colours .to-green{background-color:green}
+.colours .to-XCF6{background-color:#CF6}
+.colours .to-brown{background-color:brown}
+.colours .to-orange{background-color:orange}
+.colours .to-yellow{background-color:yellow}
+
+.sizes a {
+  background-color: #eee;
+  padding: 4px;
+}
+
+.sizes a:hover {
+  background:#ddd;
+}
+
+.sizes a.small {
+  height: 9px;
+  border-top: 1px solid #555;
+}
+
+.sizes a.medium {
+  height: 7px;
+  border-top: 3px solid #555;
+}
+
+.sizes a.large {
+  height: 2px;
+  border-top: 8px solid #555;
+}
+
+.sizes li a.selected {
+  border-color: red;
+}
