@@ -1,1 +1,3 @@
 Prototype I built a few years back to provide controls to accurately move through a video embedding in a web page using the HTML5 video element. In no way production code but might be useful for reference. I only uploaded it to here as I was seeing people getting 404s when they came here from a BBC blog post I'd forgotten commenting on.
+
+There's an example online here http://stefang.github.com/Frame-Accurate-HTML5-Video-Thing/ and be warned, it's only accurate after enough of the video has loaded (red bar).
