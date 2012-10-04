@@ -1,0 +1,40 @@
+.video_player .playbar {
+  background:white;
+}
+
+.video_player .track_bg,
+.video_player .track_loaded,
+.video_player .play_head {
+  position: absolute;
+}
+
+.video_player .playbar {
+  position: relative;
+}
+
+.video_player .playbar {
+	height: 18px;
+	top: 1px;
+	overflow:hidden;
+}
+
+.video_player .track_bg {
+	height: 100%;
+	width: 100%;
+	background: #e7e7e7;
+}
+
+.video_player .track_loaded {
+	height: 100%;
+	width: 1px;
+	background: #FFc7c7;
+	cursor: pointer;
+}
+
+.video_player .play_head {
+	cursor: pointer;
+	width: 18px;
+	height: 100%;
+	background: #888;
+	z-index: 1;
+}
