@@ -255,7 +255,7 @@ jQuery.fn.videoControls = function () {
     // Binding Events
 
     $(document).mouseup(mouseUpEvent);
-    $(document).mousedown(mouseDownEvent);
+    $(document).mousemove(mouseDownEvent);
   
     return $(this).each(function () {
         create(this);
